@@ -6,31 +6,31 @@ export const ProcessSection = () => {
   const steps = [
     {
       number: "1",
-      title: "Setup Inicial",
+      title: "Setup inicial",
       description: "Conversamos com você para entender exatamente o perfil que precisa: experiência, disponibilidade, características comportamentais.",
       time: "1 dia"
     },
     {
       number: "2",
-      title: "Divulgação Contínua",
+      title: "Divulgação contínua",
       description: "Suas vagas ficam ativas 24/7 nos principais canais. Candidatos começam a se candidatar imediatamente.",
       time: "Contínuo"
     },
     {
       number: "3",
-      title: "Triagem Inteligente",
+      title: "Triagem inteligente",
       description: "Nossa IA conversa com cada candidato no WhatsApp, fazendo perguntas específicas e testes comportamentais.",
       time: "Automático"
     },
     {
       number: "4",
-      title: "Entrega Semanal",
-      description: "Toda semana você recebe 10 candidatos qualificados com pontuação e resumo do perfil de cada um.",
+      title: "Entrega semanal",
+      description: "Toda semana você recebe candidatos qualificados com pontuação e resumo do perfil de cada um.",
       time: "Semanal"
     },
     {
       number: "5",
-      title: "Você Contrata",
+      title: "Você contrata",
       description: "Escolhe quem quer entrevistar, agenda e foca apenas na decisão final. Nós cuidamos do resto.",
       time: "Quando quiser"
     }
@@ -78,7 +78,7 @@ export const ProcessSection = () => {
 
         <div className="mt-12 bg-gradient-to-r from-orange-100 to-amber-100 p-8 rounded-2xl max-w-3xl mx-auto text-center">
           <h3 className="text-xl font-bold text-gray-900 mb-4">
-            Resultado: Você sempre tem candidatos qualificados esperando
+            Resultado: você sempre tem candidatos qualificados esperando
           </h3>
           <p className="text-gray-700">
             Nunca mais vai ficar com vaga em aberto por semanas. Nunca mais vai perder tempo 

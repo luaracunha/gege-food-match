@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle2, Users, Clock, Target, TrendingUp, MessageSquare, Brain, Shield } from "lucide-react";
@@ -25,7 +24,7 @@ const Index = () => {
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-orange-600">Gegê</div>
           <Button onClick={scrollToContact} className="bg-orange-600 hover:bg-orange-700 text-white">
-            Falar com Consultor
+            Falar com consultor
           </Button>
         </div>
       </header>
@@ -67,11 +66,7 @@ const Index = () => {
       {/* Stats Section */}
       <section className="bg-white py-16 border-t border-orange-100">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="animate-fadeInUp">
-              <div className="text-3xl font-bold text-orange-600 mb-2">10</div>
-              <div className="text-gray-600">Candidatos/semana</div>
-            </div>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="animate-fadeInUp">
               <div className="text-3xl font-bold text-orange-600 mb-2">80%</div>
               <div className="text-gray-600">Redução no tempo de triagem</div>
@@ -133,7 +128,7 @@ const Index = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Perguntas Frequentes</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Perguntas frequentes</h2>
           </div>
           <div className="max-w-3xl mx-auto space-y-6">
             <Card>
@@ -154,7 +149,7 @@ const Index = () => {
               <CardContent>
                 <p className="text-gray-600">
                   Após o setup inicial (1-2 dias), você começa a receber candidatos qualificados em até 7 dias. 
-                  O envio é semanal com 10 perfis selecionados.
+                  O envio é semanal com perfis selecionados.
                 </p>
               </CardContent>
             </Card>
@@ -198,7 +193,7 @@ const Index = () => {
             onClick={scrollToContact}
             className="bg-white text-orange-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
           >
-            Falar com Consultor Agora
+            Falar com consultor agora
           </Button>
         </div>
       </section>

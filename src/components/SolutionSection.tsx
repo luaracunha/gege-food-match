@@ -6,23 +6,23 @@ export const SolutionSection = () => {
   const features = [
     {
       icon: Target,
-      title: "Divulgação Constante",
+      title: "Divulgação constante",
       description: "Suas vagas ficam sempre ativas nos principais canais de recrutamento, atraindo candidatos continuamente."
     },
     {
       icon: Bot,
-      title: "IA que Entrevista",
+      title: "IA que entrevista",
       description: "Nossa inteligência artificial conversa com cada candidato via WhatsApp, fazendo triagem e testes comportamentais."
     },
     {
       icon: MessageSquare,
-      title: "Base Aquecida",
+      title: "Base aquecida",
       description: "Mantemos os candidatos engajados com conteúdos relevantes enquanto você não precisa deles."
     },
     {
       icon: CheckCircle2,
-      title: "Entrega Semanal",
-      description: "Toda semana você recebe 10 candidatos qualificados, prontos para entrevista presencial."
+      title: "Entrega semanal",
+      description: "Toda semana você recebe candidatos qualificados, prontos para entrevista presencial."
     }
   ];
 
@@ -34,7 +34,7 @@ export const SolutionSection = () => {
             Como A Gegê resolve isso?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Criamos uma <strong>recrutadora virtual especializada em food service</strong> que trabalha 24/7 para você. 
+            A Gegê é uma <strong>recrutadora virtual especializada em food service</strong>. 
             Ela faz toda a parte chata do processo e entrega só o que importa: candidatos qualificados.
           </p>
         </div>
