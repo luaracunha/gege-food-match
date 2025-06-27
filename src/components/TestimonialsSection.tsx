@@ -19,7 +19,7 @@ export const TestimonialsSection = () => {
     {
       name: "Roberto Santos",
       business: "Franquia de Lanches - Belo Horizonte",
-      text: "Com 3 unidades, estava sempre com vaga em aberto em alguma loja. O Gegê resolveu esse problema. Agora tenho um banco de candidatos sempre pronto.",
+      text: "Com 3 unidades, estava sempre com vaga em aberto em alguma loja. A Gegê resolveu esse problema. Agora tenho um banco de candidatos sempre pronto.",
       rating: 5
     }
   ];
@@ -32,7 +32,7 @@ export const TestimonialsSection = () => {
             O que nossos clientes falam
           </h2>
           <p className="text-xl text-gray-600">
-            Veja como o Gegê transformou o recrutamento de outros estabelecimentos
+            Veja como A Gegê transformou o recrutamento de outros estabelecimentos
           </p>
         </div>
 

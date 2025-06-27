@@ -41,8 +41,8 @@ const Index = () => {
             <span className="text-orange-600 block">procurando funcionários</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Receba toda semana <strong>10 candidatos qualificados</strong> para atendentes, garçons, cozinheiros e motoboys. 
-            Automatizamos a triagem, você foca na contratação.
+            Receba semanalmente candidatos qualificados para as vagas mais buscadas no mercado: atendentes, garçons, cozinheiros e motoboys. 
+            Automatizamos a triagem e você foca na contratação!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -191,7 +191,7 @@ const Index = () => {
             Pronto para parar de se preocupar com recrutamento?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Converse com nosso time e descubra como o Gegê pode transformar a contratação no seu negócio
+            Converse com nosso time e descubra como A Gegê pode transformar a contratação no seu negócio
           </p>
           <Button 
             size="lg" 

@@ -62,7 +62,7 @@ export const ProblemSection = () => {
               E se eu te dissesse que existe uma forma de resolver tudo isso?
             </p>
             <p className="text-gray-600">
-              Imagine receber toda semana uma lista de candidatos já triados, testados e prontos para entrevista presencial. É isso que o Gegê faz por você.
+              Imagine receber toda semana uma lista de candidatos já triados, testados e prontos para entrevista presencial. É isso que A Gegê faz por você.
             </p>
           </div>
         </div>

@@ -41,7 +41,7 @@ export const BenefitsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Por que escolher o Gegê?
+            Por que escolher A Gegê?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Mais do que uma ferramenta de recrutamento, somos seu parceiro estratégico para ter sempre a equipe ideal.
@@ -72,7 +72,7 @@ export const BenefitsSection = () => {
               Imagine sua semana sem se preocupar com vagas em aberto
             </h3>
             <p className="text-gray-600 mb-4">
-              Enquanto você cuida do seu negócio, o Gegê trabalha nos bastidores encontrando, 
+              Enquanto você cuida do seu negócio, A Gegê trabalha nos bastidores encontrando, 
               triando e preparando os melhores candidatos para você.
             </p>
             <p className="text-lg font-medium text-orange-600">
