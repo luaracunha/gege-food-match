@@ -4,7 +4,6 @@ import { useState } from "react";
 import { ContactForm } from "@/components/ContactForm";
 import { ProblemSection } from "@/components/ProblemSection";
 import { SolutionSection } from "@/components/SolutionSection";
-import { TestimonialsSection } from "@/components/TestimonialsSection";
 
 const Index = () => {
   const [showContactForm, setShowContactForm] = useState(false);
@@ -85,9 +84,6 @@ const Index = () => {
 
       {/* Solution Section */}
       <SolutionSection />
-
-      {/* Testimonials Section */}
-      <TestimonialsSection />
 
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-orange-600 to-orange-700 py-16 text-white">
