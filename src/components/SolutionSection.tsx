@@ -1,31 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Bot, MessageSquare, Target, CheckCircle2 } from "lucide-react";
 
 export const SolutionSection = () => {
-  const features = [
-    {
-      icon: Target,
-      title: "Divulgação constante",
-      description: "Suas vagas ficam sempre ativas nos principais canais de recrutamento, atraindo candidatos continuamente."
-    },
-    {
-      icon: Bot,
-      title: "IA que entrevista",
-      description: "Nossa inteligência artificial conversa com cada candidato via WhatsApp, fazendo triagem e testes comportamentais."
-    },
-    {
-      icon: MessageSquare,
-      title: "Base aquecida",
-      description: "Mantemos os candidatos engajados com conteúdos relevantes enquanto você não precisa deles."
-    },
-    {
-      icon: CheckCircle2,
-      title: "Entrega semanal",
-      description: "Toda semana você recebe candidatos qualificados, prontos para entrevista presencial."
-    }
-  ];
-
   const steps = [
     {
       number: "1",
@@ -43,7 +19,7 @@ export const SolutionSection = () => {
       number: "3",
       title: "Triagem inteligente",
       description: "Nossa IA conversa com cada candidato no WhatsApp, fazendo perguntas específicas e testes comportamentais.",
-      time: "Automático"
+      time: "Diariamente"
     },
     {
       number: "4",
@@ -64,7 +40,7 @@ export const SolutionSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Como a Gegê resolve isso?
+            Como a Gegê resolve isso na prática?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             A Gegê é uma <strong>recrutadora virtual especializada em food service</strong>. 
@@ -72,27 +48,7 @@ export const SolutionSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {features.map((feature, index) => (
-            <Card key={index} className="text-center hover:shadow-lg transition-shadow animate-fadeInUp">
-              <CardContent className="p-6">
-                <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <feature.icon className="w-8 h-8 text-orange-600" />
-                </div>
-                <h3 className="font-semibold text-gray-900 mb-2">{feature.title}</h3>
-                <p className="text-gray-600 text-sm">{feature.description}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Como funciona na prática?
-            </h3>
-          </div>
-
           {steps.map((step, index) => (
             <div key={index} className="flex items-start mb-8 last:mb-0">
               <div className="flex-shrink-0 mr-6">
