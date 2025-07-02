@@ -50,13 +50,15 @@ export const ContactForm = () => {
     <section id="contato" className="py-16 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pronto para parar de se preocupar com recrutamento?
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Converse com nosso time e descubra como a Gegê pode resolver suas dores de recrutamento. 
-            Faremos uma análise gratuita das suas necessidades.
-          </p>
+          <div className="bg-gradient-to-r from-orange-600 to-orange-700 py-8 px-6 rounded-2xl text-white mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Pronto para parar de se preocupar com recrutamento?
+            </h2>
+            <p className="text-xl max-w-3xl mx-auto">
+              Converse com nosso time e descubra como a Gegê pode resolver suas dores de recrutamento. 
+              Faremos uma análise gratuita das suas necessidades.
+            </p>
+          </div>
         </div>
 
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-start">

@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 export const SolutionSection = () => {
@@ -73,11 +72,10 @@ export const SolutionSection = () => {
 
         <div className="mt-12 bg-gradient-to-r from-orange-100 to-amber-100 p-8 rounded-2xl max-w-3xl mx-auto text-center">
           <h4 className="text-xl font-bold text-gray-900 mb-4">
-            Resultado: você sempre tem candidatos qualificados esperando
+            Resultado: Processo automatizado e menor rotatividade
           </h4>
           <p className="text-gray-700">
-            Nunca mais vai ficar com vaga em aberto por semanas. Nunca mais vai perder tempo 
-            triando currículo por currículo. Seu foco volta para o que realmente importa: fazer seu negócio crescer.
+            Seu foco volta para o que realmente importa: fazer seu negócio crescer!
           </p>
         </div>
       </div>
