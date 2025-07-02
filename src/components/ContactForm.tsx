@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -52,10 +51,10 @@ export const ContactForm = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pronto para transformar seu recrutamento?
+            Pronto para parar de se preocupar com recrutamento?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Converse com nosso time e descubra como o Gegê pode resolver suas dores de recrutamento. 
+            Converse com nosso time e descubra como a Gegê pode resolver suas dores de recrutamento. 
             Faremos uma análise gratuita das suas necessidades.
           </p>
         </div>
@@ -100,10 +99,10 @@ export const ContactForm = () => {
 
             <Card className="bg-orange-50 border-orange-200">
               <CardContent className="p-6">
-                <h4 className="font-bold text-gray-900 mb-2">🎯 Análise Gratuita</h4>
+                <h4 className="font-bold text-gray-900 mb-2">🎯 Análise gratuita</h4>
                 <p className="text-gray-700 text-sm">
                   Nossos consultores farão uma análise completa das suas necessidades de recrutamento 
-                  e mostrarão exatamente como o Gegê pode ajudar o seu negócio.
+                  e mostrarão exatamente como a Gegê pode ajudar o seu negócio.
                 </p>
               </CardContent>
             </Card>
@@ -155,7 +154,7 @@ export const ContactForm = () => {
                 </div>
 
                 <div>
-                  <Label htmlFor="empresa">Nome da Empresa</Label>
+                  <Label htmlFor="empresa">Nome da empresa</Label>
                   <Input
                     id="empresa"
                     value={formData.empresa}
@@ -166,7 +165,7 @@ export const ContactForm = () => {
 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <Label>Tipo de Estabelecimento</Label>
+                    <Label>Tipo de estabelecimento</Label>
                     <Select onValueChange={(value) => handleChange('tipoEstabelecimento', value)}>
                       <SelectTrigger>
                         <SelectValue placeholder="Selecione..." />
@@ -183,7 +182,7 @@ export const ContactForm = () => {
                     </Select>
                   </div>
                   <div>
-                    <Label>Número de Funcionários</Label>
+                    <Label>Número de funcionários</Label>
                     <Select onValueChange={(value) => handleChange('numeroFuncionarios', value)}>
                       <SelectTrigger>
                         <SelectValue placeholder="Selecione..." />
@@ -214,7 +213,7 @@ export const ContactForm = () => {
                   type="submit" 
                   className="w-full bg-orange-600 hover:bg-orange-700 text-white py-3 text-lg"
                 >
-                  Falar com Consultor Agora
+                  Falar com consultor agora
                 </Button>
 
                 <p className="text-xs text-gray-500 text-center">

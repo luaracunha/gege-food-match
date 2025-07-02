@@ -7,22 +7,22 @@ export const ProblemSection = () => {
     {
       icon: Users,
       title: "Falta de candidatos qualificados",
-      description: "Você posta a vaga e só aparece gente sem experiência ou que não tem o perfil certo para o seu negócio."
+      description: "Só aparece gente sem experiência ou que não tem o perfil certo."
     },
     {
       icon: Clock,
       title: "Tempo perdido na triagem",
-      description: "Horas ligando, mandando mensagem e fazendo entrevistas com pessoas que nem vão aparecer."
+      description: "Horas fazendo entrevistas com pessoas que nem vão aparecer."
     },
     {
       icon: TrendingDown,
       title: "Alta rotatividade",
-      description: "Contrata, treina, a pessoa sai em pouco tempo. O ciclo se repete e você fica sempre correndo atrás."
+      description: "Contrata, treina e a pessoa sai em pouco tempo."
     },
     {
       icon: AlertTriangle,
       title: "Equipe sobrecarregada",
-      description: "Enquanto a vaga fica em aberto, quem fica paga o pato. Funcionários sobrecarregados, atendimento prejudicado."
+      description: "Funcionários sobrecarregados e atendimento prejudicado."
     }
   ];
 
@@ -54,17 +54,6 @@ export const ProblemSection = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-2xl mx-auto border-l-4 border-l-orange-500">
-            <p className="text-lg font-medium text-gray-900 mb-2">
-              E se eu te dissesse que existe uma forma de resolver tudo isso?
-            </p>
-            <p className="text-gray-600">
-              Imagine receber toda semana uma lista de candidatos já triados, testados e prontos para entrevista presencial. É isso que A Gegê faz por você.
-            </p>
-          </div>
         </div>
       </div>
     </section>

@@ -1,12 +1,9 @@
+
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle2, Users, Clock, Target, TrendingUp, MessageSquare, Brain, Shield } from "lucide-react";
 import { useState } from "react";
 import { ContactForm } from "@/components/ContactForm";
 import { ProblemSection } from "@/components/ProblemSection";
 import { SolutionSection } from "@/components/SolutionSection";
-import { BenefitsSection } from "@/components/BenefitsSection";
-import { ProcessSection } from "@/components/ProcessSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 
 const Index = () => {
@@ -49,7 +46,7 @@ const Index = () => {
               onClick={scrollToContact}
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg"
             >
-              Quero Candidatos Qualificados
+              Quero candidatos qualificados
             </Button>
             <Button 
               size="lg" 
@@ -57,7 +54,7 @@ const Index = () => {
               onClick={scrollToContact}
               className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-4 text-lg"
             >
-              Ver Como Funciona
+              Ver como funciona
             </Button>
           </div>
         </div>
@@ -89,95 +86,8 @@ const Index = () => {
       {/* Solution Section */}
       <SolutionSection />
 
-      {/* Benefits Section */}
-      <BenefitsSection />
-
-      {/* Process Section */}
-      <ProcessSection />
-
-      {/* Social Proof */}
-      <section className="bg-orange-50 py-16">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Junte-se a centenas de estabelecimentos que já contratam melhor
-          </h2>
-          <p className="text-gray-600 mb-8">
-            Restaurantes, lanchonetes, padarias e cafeterias já descobriram como economizar tempo no recrutamento
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-            <div className="bg-white px-6 py-3 rounded-lg shadow-sm">
-              <span className="font-semibold text-gray-700">Restaurantes</span>
-            </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-sm">
-              <span className="font-semibold text-gray-700">Lanchonetes</span>
-            </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-sm">
-              <span className="font-semibold text-gray-700">Franquias</span>
-            </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-sm">
-              <span className="font-semibold text-gray-700">Cafeterias</span>
-            </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-sm">
-              <span className="font-semibold text-gray-700">Padarias</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Perguntas frequentes</h2>
-          </div>
-          <div className="max-w-3xl mx-auto space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Como vocês encontram os candidatos?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Utilizamos múltiplos canais como Indeed, redes sociais e parcerias para atrair candidatos. 
-                  Nossa IA faz a triagem inicial e entrevista via WhatsApp para garantir qualidade.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Quanto tempo leva para receber os primeiros candidatos?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Após o setup inicial (1-2 dias), você começa a receber candidatos qualificados em até 7 dias. 
-                  O envio é semanal com perfis selecionados.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">E se eu não gostar de nenhum candidato?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Ajustamos continuamente o perfil baseado no seu feedback. Quanto mais específico você for 
-                  sobre suas preferências, mais assertivos ficamos na seleção.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Funciona para qualquer tipo de estabelecimento de alimentação?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Sim! Atendemos restaurantes, lanchonetes, padarias, cafeterias, franquias e qualquer negócio 
-                  que precise de colaboradores operacionais no food service.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
+      {/* Testimonials Section */}
+      <TestimonialsSection />
 
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-orange-600 to-orange-700 py-16 text-white">
@@ -186,7 +96,7 @@ const Index = () => {
             Pronto para parar de se preocupar com recrutamento?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Converse com nosso time e descubra como A Gegê pode transformar a contratação no seu negócio
+            Converse com nosso time e descubra como a Gegê pode transformar a contratação no seu negócio
           </p>
           <Button 
             size="lg" 
