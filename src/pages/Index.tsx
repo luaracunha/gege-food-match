@@ -85,25 +85,6 @@ const Index = () => {
       {/* Solution Section */}
       <SolutionSection />
 
-      {/* Final CTA */}
-      <section className="bg-gradient-to-r from-orange-600 to-orange-700 py-16 text-white">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Pronto para parar de se preocupar com recrutamento?
-          </h2>
-          <p className="text-xl mb-8 opacity-90">
-            Converse com nosso time e descubra como a Gegê pode transformar a contratação no seu negócio
-          </p>
-          <Button 
-            size="lg" 
-            onClick={scrollToContact}
-            className="bg-white text-orange-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
-          >
-            Falar com consultor agora
-          </Button>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <ContactForm />
 
