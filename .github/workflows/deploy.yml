@@ -5,7 +5,7 @@ on:
     branches:
       - main # Altere para a branch principal do seu projeto, se for diferente de 'main'
 
-permissions: # ADICIONE ESTAS LINHAS
+permissions:
   contents: write
   pages: write
   id-token: write
